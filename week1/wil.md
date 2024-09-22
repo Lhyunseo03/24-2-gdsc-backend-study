@@ -139,5 +139,4 @@ nickname 데이터
 | 프로필 편집 |  |  |
 
 ### [localhost:8080](http://localhost:8080) 에러화면 첨부
-
-![스크린샷 2024-09-22 183657.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ba1a5998-ec4e-4213-a110-4fadaf91e17c/5e668f6a-747f-4365-81b9-e4094627fdbf/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-09-22_183657.png)
+![스크린샷 2024-09-22 183657](https://github.com/user-attachments/assets/81b43967-8b17-41d5-b38e-21e3f6baa6a3)
