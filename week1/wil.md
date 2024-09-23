@@ -122,21 +122,21 @@ nickname 데이터
 
 | 세부 기능 | HTTP 메소드 | URL |
 | --- | --- | --- |
-| 유저 회원가입 | POST | /todo/member/{member_id} |
+| 유저 회원가입 | POST | /register |
 | 유저 로그인 | POST | /login |
 | 유저 로그아웃 | POST | /logout |
 | 할 일 생성 | POST | /todo |
 | 할 일 전체 조회 | GET | /todo/list |
-| 할 일 수정 | PATCH | /todo/{ |
-| 할 일 삭제 | DELETE | /todo/list/ |
-| 할 일 체크 | POST |  |
-| 할 일 체크해제 | POST |  |
-| 친구 추가 | POST |  |
-| 친구 조회 | GET | /todo/ |
-| 친구 삭제 | DELETE |  |
-| 특정 친구의 할 일 조회 | GET |  |
+| 할 일 수정 | PATCH | /todo/{todo_id} |
+| 할 일 삭제 | DELETE | /todo/{todo_id} |
+| 할 일 체크 | POST | /todo/{todo_id}/check |
+| 할 일 체크해제 | POST | /todo/{todo_id}/uncheck |
+| 친구 추가 | POST | /member/{member_id} |
+| 친구 조회 | GET | /member/{member_id} |
+| 친구 삭제 | DELETE | /friend/{friend_id} |
+| 특정 친구의 할 일 조회 | GET | /member/{member_id}/todo |
 | 좋아요 | POST | /like |
-| 프로필 편집 |  |  |
+| 프로필 편집 | PATCH | /member/{member_id}/profile |
 
 ### [localhost:8080](http://localhost:8080) 에러화면 첨부
 
