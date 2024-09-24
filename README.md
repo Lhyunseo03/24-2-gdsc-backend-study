@@ -1,1 +1,0 @@
-# 24-2-gdsc-backend-study
